@@ -24,10 +24,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.detect{|i| i.cheese_types}
-  if cheese_types > 1
-    return cheese_types.first
-  else
-    nil
-end
+  array.find {|i| cheese_types.include? i}
+  
 end
