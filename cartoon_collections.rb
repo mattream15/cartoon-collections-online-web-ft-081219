@@ -20,19 +20,6 @@ def long_planeteer_calls(array)
      planeteer.length > 4
   
   end
-  
-  # planeteer_callings = [ ]
-  # array.all? do |planeteer|
-  #         if planeteer.length < 4
-  #     planeteer_callings << "#{planeteer}"
-  #     false
-  #         else
-  #   array.any? do |planeteer|
-  #     if planeteer.length > 4
-  #     planeteer_callings << "#{planeteer}"
-  #   true
-  # end
-#end
 end
 
 def find_the_cheese(array)
